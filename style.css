@@ -1,0 +1,32 @@
+html {
+    /*min-height:100%;*/
+    /*background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%),*/
+    /*linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%),*/
+    /*linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);*/
+    background: goldenrod;
+}
+
+
+body {
+
+}
+
+.container {
+    width: 40vw;
+    background: green;
+    height: calc(40vw *0.5);
+    /*margin: auto;*/
+    display: flex;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+kbd {
+    background-color: white;
+    flex: 1 1 auto;
+    border: 2px solid grey;
+}
