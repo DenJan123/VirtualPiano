@@ -44,6 +44,7 @@ body {
 
 
 .black-keys{
+    pointer-events: none;
     display: flex;
     position: absolute;
     height: 300px;
@@ -54,6 +55,7 @@ body {
 
 }
 .black-keys kbd {
+    pointer-events: auto;
     position: relative;
     background: black;
     height:190px;
