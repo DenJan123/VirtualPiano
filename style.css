@@ -8,14 +8,13 @@ html {
 
 
 body {
-
+    font-size: 2em
 }
 
 .container {
-    width: 40vw;
+    width: 600px;
     background: green;
-    height: calc(40vw *0.5);
-    /*margin: auto;*/
+    height: 300px;
     display: flex;
     position:absolute;
     top: 50%;
@@ -25,8 +24,57 @@ body {
 
 }
 
-kbd {
+.white-keys{
+    display: flex;
+    position:absolute;
+    height: 300px;
+    width: 600px;
+    z-index: 1;
+    /*background:red;*/
+}
+.white-keys kbd {
     background-color: white;
     flex: 1 1 auto;
     border: 2px solid grey;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+
+.black-keys{
+    display: flex;
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    /*background: green;*/
+    z-index:2;
+    justify-content: space-around;
+
+}
+.black-keys kbd {
+    position: relative;
+    background: black;
+    height:190px;
+    width: 50px;
+    color: white;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.black-keys kbd:nth-child(1){
+    right: -25px;
+}
+.black-keys kbd:nth-child(2) {
+    right: 10px;
+}
+.black-keys kbd:nth-child(3) {
+    right: -43px;
+}
+.black-keys kbd:nth-child(4) {
+    right: -10px;
+}
+.black-keys kbd:nth-child(5) {
+    right: 25px;
 }
